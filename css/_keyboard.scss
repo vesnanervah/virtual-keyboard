@@ -1,0 +1,26 @@
+@import '_key';
+%dos__keyboard{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    border-radius: 9px;
+    padding: 15px;
+    background-color: #d5d5ac;
+    width:674px;
+    row-gap: 5px;
+    column-gap: 3px;
+    .keyboard__key{
+        @extend %keyboard__key;
+        .key__alt{
+            display: none;
+        }
+    }
+    &.alt-mode{
+        .key__main{
+            display: none;
+        }
+        .key__alt{
+            display: inline;
+        }
+    }
+}
