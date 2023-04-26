@@ -40,6 +40,12 @@ export default class VirtualKeyboard{
         box.append(altLetter);
         return box;
     }
+    handleTab(event){
+        event.preventDefault();
+        let txtArea = document.querySelector('.display__text')
+        txtArea.value = txtArea.value.slice(0, txtArea.selectionStart)+'   '+txtArea.value.slice(txtArea.selectionStart);
+
+    }
     viewAlt(){
         document.querySelector('.dos__keyboard').classList.add('alt-mode');
     }

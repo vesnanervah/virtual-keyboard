@@ -310,8 +310,8 @@ export const EN = [
     {
         mainValue:'c',
         mainDisplay:'c',
-        alt:'C',
-        alt:'C',
+        altDisplay:'C',
+        altValue:'C',
         space:1      
     },
     {

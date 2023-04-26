@@ -20,6 +20,9 @@ export default class Dos{
         if(event.key == 'Shift'){
             this.keyboard.viewAlt();
         }
+        if(event.key == 'Tab'){
+            this.keyboard.handleTab(event)
+        }
     }
     handleKeyUp(event){
         document.getElementById(`key-${event.key}`).closest('.keyboard__key').classList.remove('pressed');
