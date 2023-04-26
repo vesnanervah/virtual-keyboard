@@ -1,5 +1,5 @@
 @import '_dos';
-
+@import '_note';
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +14,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.note{
+    @extend %note;
 }
 .dos{
     @extend %dos;
