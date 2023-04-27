@@ -15,13 +15,13 @@ export default class Dos{
     }
     handleKeyDown(event){
         document.querySelector('.display__text').focus();
-        /*if(event.key == 'GroupNext'){
+        if(event.key == 'GroupNext'){
             event.preventDefault();
             for( let btn of document.getElementsByClassName(`key-Alt`) ){
                 btn.closest('.keyboard__key').classList.add('pressed')
             }
             this.keyboard.changeLayout();
-        }*/
+        }
         if(document.getElementsByClassName(`key-${event.key}`)){
             this.keyboard.checkLocale(event);
             for( let btn of document.getElementsByClassName(`key-${event.key}`) ){
@@ -41,7 +41,7 @@ export default class Dos{
             if(event.key == 'Tab'){
                 this.keyboard.handleTab(event)
             }
-            if( (event.key == 'alt'&&this.keyboard.ctr) ){
+            if( event.key == 'Alt'&&this.keyboard.ctrl ){
                 this.keyboard.changeLayout();
             }
         }
