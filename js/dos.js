@@ -23,8 +23,9 @@ export default class Dos{
             this.keyboard.changeLayout();
         }
         if(document.getElementsByClassName(`key-${event.key}`)){
+            this.keyboard.checkLocale(event);
             for( let btn of document.getElementsByClassName(`key-${event.key}`) ){
-                btn.closest('.keyboard__key').classList.add('pressed')
+                btn.closest('.keyboard__key').classList.add('pressed');
             }
             if(event.key == 'Shift'){
                 this.keyboard.viewAlt();

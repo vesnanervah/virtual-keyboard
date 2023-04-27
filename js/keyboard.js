@@ -73,6 +73,18 @@ export default class VirtualKeyboard{
         keyboard.classList.toggle('keyboard-en');
         keyboard.classList.toggle('keyboard-ru');
     }
+    checkLocale(event){
+        let ruLay = document.querySelector('.layout--ru');
+        let enLay = document.querySelector('.layout--en');
+        let pushedClass = `.key-${event.key}`;
+        let keybrd = document.querySelector('.dos__keyboard');
+        if( 
+        ( keybrd.classList.contains('keyboard-en') && !(enLay.querySelector(pushedClass)) && (ruLay.querySelector(pushedClass)) )
+        || ( keybrd.classList.contains('keyboard-ru') && !(ruLay.querySelector(pushedClass)) && (enLay.querySelector(pushedClass)) )
+        ) {
+            this.changeLayout();
+        }
+    }
     viewAlt(){
         document.querySelector('.dos__keyboard').classList.add('alt-mode');
     }
