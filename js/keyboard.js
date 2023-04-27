@@ -56,8 +56,8 @@ export default class VirtualKeyboard{
         if(letter.space == 6){
             box.classList.add(`six-space`)
         }
-        mainLetter.setAttribute('id', `key-${letter.mainValue}`);
-        altLetter.setAttribute('id', `key-${letter.altValue}`)
+        mainLetter.classList.add(`key-${letter.mainValue}`);
+        altLetter.classList.add(`key-${letter.altValue}`)
         box.append(mainLetter);
         box.append(altLetter);
         return box;
@@ -69,7 +69,6 @@ export default class VirtualKeyboard{
 
     }
     changeLayout(){
-        console.log('changing')
         let keyboard = document.querySelector('.dos__keyboard');
         keyboard.classList.toggle('keyboard-en');
         keyboard.classList.toggle('keyboard-ru');
