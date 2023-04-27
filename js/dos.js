@@ -15,23 +15,34 @@ export default class Dos{
     }
     handleKeyDown(event){
         document.querySelector('.display__text').focus();
-        if(event.key == 'GroupNext'){
+        /*if(event.key == 'GroupNext'){
             event.preventDefault();
             for( let btn of document.getElementsByClassName(`key-Alt`) ){
                 btn.closest('.keyboard__key').classList.add('pressed')
             }
             this.keyboard.changeLayout();
-        }
+        }*/
         if(document.getElementsByClassName(`key-${event.key}`)){
             this.keyboard.checkLocale(event);
             for( let btn of document.getElementsByClassName(`key-${event.key}`) ){
                 btn.closest('.keyboard__key').classList.add('pressed');
+            }
+            if(event.key == 'Control'){
+                this.keyboard.ctrl = true;
+
+            }
+            if(event.key == 'Alt'){
+                this.keyboard.alt = true;
+
             }
             if(event.key == 'Shift'){
                 this.keyboard.viewAlt();
             }
             if(event.key == 'Tab'){
                 this.keyboard.handleTab(event)
+            }
+            if( (event.key == 'alt'&&this.keyboard.ctr) ){
+                this.keyboard.changeLayout();
             }
         }
         else{
@@ -48,6 +59,14 @@ export default class Dos{
         if(document.getElementsByClassName(`key-${event.key}`)){
             for( let btn of document.getElementsByClassName(`key-${event.key}`) ){
                 btn.closest('.keyboard__key').classList.remove('pressed')
+            }
+            if(event.key == 'Control'){
+                this.keyboard.ctrl = false;
+
+            }
+            if(event.key == 'Alt'){
+                this.keyboard.alt = false;
+
             }
             if(event.key == 'Shift'){
                 this.keyboard.hideAlt();

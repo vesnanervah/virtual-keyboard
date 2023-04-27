@@ -145,11 +145,12 @@
   background-color: white;
 }
 .note .note__line {
+  padding-left: 5px;
   border-top: dotted black 1px;
   height: 29px;
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Dancing Script", cursive;
 }
 
