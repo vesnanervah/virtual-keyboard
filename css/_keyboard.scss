@@ -1,19 +1,36 @@
 @import '_key';
+@import '_layout';
 %dos__keyboard{
-    display: flex;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    border-radius: 9px;
-    padding: 15px;
-    background-color: #d5d5ac;
     width:674px;
-    row-gap: 5px;
-    column-gap: 3px;
+    overflow: hidden;
+    .layouts-wrapper{
+        display: flex;
+        width: 9999px;
+    }
     .keyboard__key{
         @extend %keyboard__key;
         .key__alt{
             display: none;
         }
+    }
+    .keyboard__layout{
+        @extend %keyboard__layout;
+    }
+    &.keyboard-ru{
+        .layout--ru{
+            order:0;
+        }
+        .layout--en{
+            order: 1;
+        }   
+    }
+    &.keyboard-en{
+        .layout--ru{
+            order:1;
+        }
+        .layout--en{
+            order: 0;
+        }   
     }
     &.alt-mode{
         .key__main{

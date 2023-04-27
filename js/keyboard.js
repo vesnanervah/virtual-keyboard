@@ -1,13 +1,35 @@
-import {EN} from './letters.js';
+import {EN, RU} from './letters.js';
 
 export default class VirtualKeyboard{
     constructor(){
         this.enLetters = EN;
+        this.ruLetters = RU;
+        this.ctrl = false;
+        this.alt = false;
     }
-    createLayout(){
+    createKeyboard(){
+        let dosKeyboard = document.createElement('div');
+        let layoutsWrapper = document.createElement('div');
+        let enLayout = this.createLayout(this.enLetters);
+        let ruLayout = this.createLayout(this.ruLetters);
+        dosKeyboard.className = 'dos__keyboard';
+        dosKeyboard.classList.add('keyboard-en');
+        layoutsWrapper.className = 'layouts-wrapper';
+        layoutsWrapper.append(enLayout);
+        layoutsWrapper.append(ruLayout);
+        dosKeyboard.append(layoutsWrapper);
+        return dosKeyboard;
+    }
+    createLayout(lang){
         let layout = document.createElement('div');
-        layout.className = 'dos__keyboard';
-        for(let letter of this.enLetters){
+        layout.className = 'keyboard__layout';
+        if(lang === this.enLetters){
+            layout.classList.add('layout--en')
+        }
+        if(lang === this.ruLetters){
+            layout.classList.add('layout--ru')
+        }
+        for(let letter of lang){
             let key = this.createBtn(letter)
             layout.append(key)
         }
@@ -45,6 +67,12 @@ export default class VirtualKeyboard{
         let txtArea = document.querySelector('.display__text')
         txtArea.value = txtArea.value.slice(0, txtArea.selectionStart)+'   '+txtArea.value.slice(txtArea.selectionStart);
 
+    }
+    changeLayout(){
+        console.log('changing')
+        let keyboard = document.querySelector('.dos__keyboard');
+        keyboard.classList.toggle('keyboard-en');
+        keyboard.classList.toggle('keyboard-ru');
     }
     viewAlt(){
         document.querySelector('.dos__keyboard').classList.add('alt-mode');
