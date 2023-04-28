@@ -77,7 +77,7 @@ export default class VirtualKeyboard{
     checkLocale(event){
         let ruLay = document.querySelector('.layout--ru');
         let enLay = document.querySelector('.layout--en');
-        let pushedClass = `.key-${event.key}`;
+        let pushedClass = `key-${event.key}`;
         let keybrd = document.querySelector('.dos__keyboard');
         if( 
         ( keybrd.classList.contains('keyboard-en') && !(enLay.getElementsByClassName(pushedClass)[0]) && (ruLay.getElementsByClassName(pushedClass)[0]) )
@@ -95,7 +95,6 @@ export default class VirtualKeyboard{
             document.querySelector('.dos__keyboard').classList.remove('alt-mode');
         }
     }
-
     handleShift(){
         if(document.querySelector('.dos__keyboard').classList.contains('alt-mode')){
             document.querySelector('.dos__keyboard').classList.remove('alt-mode');
