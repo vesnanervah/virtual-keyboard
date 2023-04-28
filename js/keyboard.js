@@ -6,6 +6,7 @@ export default class VirtualKeyboard{
         this.ruLetters = RU;
         this.ctrl = false;
         this.alt = false;
+        this.caps = null;
     }
     createKeyboard(){
         let dosKeyboard = document.createElement('div');
@@ -79,16 +80,28 @@ export default class VirtualKeyboard{
         let pushedClass = `.key-${event.key}`;
         let keybrd = document.querySelector('.dos__keyboard');
         if( 
-        ( keybrd.classList.contains('keyboard-en') && !(enLay.querySelector(pushedClass)) && (ruLay.querySelector(pushedClass)) )
-        || ( keybrd.classList.contains('keyboard-ru') && !(ruLay.querySelector(pushedClass)) && (enLay.querySelector(pushedClass)) )
+        ( keybrd.classList.contains('keyboard-en') && !(enLay.getElementsByClassName(pushedClass)[0]) && (ruLay.getElementsByClassName(pushedClass)[0]) )
+        || ( keybrd.classList.contains('keyboard-ru') && !(ruLay.getElementsByClassName(pushedClass)[0]) && (enLay.getElementsByClassName(pushedClass)[0]) )
         ) {
             this.changeLayout();
         }
     }
-    viewAlt(){
-        document.querySelector('.dos__keyboard').classList.add('alt-mode');
+    checkCaps(event){
+        this.caps = event.getModifierState('CapsLock');
+        if(this.caps){
+            document.querySelector('.dos__keyboard').classList.add('alt-mode');
+        }
+        else{
+            document.querySelector('.dos__keyboard').classList.remove('alt-mode');
+        }
     }
-    hideAlt(){
-        document.querySelector('.dos__keyboard').classList.remove('alt-mode');
+
+    handleShift(){
+        if(document.querySelector('.dos__keyboard').classList.contains('alt-mode')){
+            document.querySelector('.dos__keyboard').classList.remove('alt-mode');
+        }
+        else{
+            document.querySelector('.dos__keyboard').classList.add('alt-mode');
+        }
     }
 }

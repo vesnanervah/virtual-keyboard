@@ -36,7 +36,7 @@ export default class Dos{
 
             }
             if(event.key == 'Shift'){
-                this.keyboard.viewAlt();
+                this.keyboard.handleShift();
             }
             if(event.key == 'Tab'){
                 this.keyboard.handleTab(event)
@@ -60,6 +60,9 @@ export default class Dos{
             for( let btn of document.getElementsByClassName(`key-${event.key}`) ){
                 btn.closest('.keyboard__key').classList.remove('pressed')
             }
+            if(event.key == 'CapsLock'){
+                this.keyboard.checkCaps(event);
+            }
             if(event.key == 'Control'){
                 this.keyboard.ctrl = false;
 
@@ -69,7 +72,7 @@ export default class Dos{
 
             }
             if(event.key == 'Shift'){
-                this.keyboard.hideAlt();
+                this.keyboard.handleShift();
             }
         }
         else{
