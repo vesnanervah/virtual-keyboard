@@ -120,7 +120,7 @@ export default class VirtualKeyboard{
         }    
         switch(event){
             case 'ArrowUp':
-                if(rows.length == 1 || rows.length == 0 || textarea.selectionStart<=rows[0].length){
+                if(rows.length == 1 || rows.length == 0 || textarea.selectionStart<=rows[0].length || currentRow == 0){
                     return
                 }
                 textarea.selectionStart = up;
@@ -130,7 +130,7 @@ export default class VirtualKeyboard{
                 if(rows.length == 1 || rows.length == 0|| (textarea.selectionStart+rows[rows.length-1].length)>symbolsTotal ){
                     return
                 }
-                textarea.selectionStart += rows[currentRow+1].length;
+                textarea.selectionStart += rows[currentRow+1].length + ( (up+rows[currentRow].length)-textarea.selectionStart);
                 textarea.selectionEnd = textarea.selectionStart;
                 break;    
             case 'ArrowLeft':

@@ -429,7 +429,7 @@ export const EN = [
     {
         mainValue:'ArrowRight',
         mainDisplay:'&#8658;',
-        altValue:'ArrowDown',
+        altValue:'ArrowRight',
         altDisplay:'&#8658;',
         space:1    
     },
@@ -866,7 +866,7 @@ export const RU = [
     {
         mainValue:'ArrowRight',
         mainDisplay:'&#8658;',
-        altValue:'ArrowDown',
+        altValue:'ArrowRight',
         altDisplay:'&#8658;',
         space:1    
     },
