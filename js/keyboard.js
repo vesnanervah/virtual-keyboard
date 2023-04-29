@@ -6,7 +6,7 @@ export default class VirtualKeyboard{
         this.ruLetters = RU;
         this.ctrl = false;
         this.alt = false;
-        this.caps = null;
+        this.caps = false;
     }
     createKeyboard(){
         let dosKeyboard = document.createElement('div');
@@ -101,6 +101,46 @@ export default class VirtualKeyboard{
         }
         else{
             document.querySelector('.dos__keyboard').classList.add('alt-mode');
+        }
+    }
+    handleArrows(event){
+        let textarea = document.querySelector('.display__text');
+        let rows = textarea.value.split(/\r?\n/).map((item, index)=>index!=0?' '+item:item);
+        let currentRow;
+        let symbolsTotal = rows.reduce((acc, value)=>acc+value.length,0);
+        let up = 0;
+        for(let i = 0; i<rows.length; i++){
+            if(up+rows[i].length < textarea.selectionStart){
+                up+=rows[i].length;
+            }
+            else{
+                currentRow = i;
+                break
+            }
+        }    
+        switch(event){
+            case 'ArrowUp':
+                if(rows.length == 1 || rows.length == 0 || textarea.selectionStart<=rows[0].length){
+                    return
+                }
+                textarea.selectionStart = up;
+                textarea.selectionEnd = textarea.selectionStart;
+                break;
+            case 'ArrowDown':
+                if(rows.length == 1 || rows.length == 0|| (textarea.selectionStart+rows[rows.length-1].length)>symbolsTotal ){
+                    return
+                }
+                textarea.selectionStart += rows[currentRow+1].length;
+                textarea.selectionEnd = textarea.selectionStart;
+                break;    
+            case 'ArrowLeft':
+                textarea.selectionStart = textarea.selectionStart-1;
+                textarea.selectionEnd = textarea.selectionStart;
+                break;
+            case 'ArrowRight':
+                textarea.selectionStart = textarea.selectionStart+1;
+                textarea.selectionEnd = textarea.selectionStart;
+                break;        
         }
     }
 }
