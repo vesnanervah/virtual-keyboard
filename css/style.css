@@ -28,7 +28,7 @@
 }
 .dos .dos__keyboard .six-space.keyboard__key {
   font-size: 16px;
-  width: 250px;
+  width: 256px;
   border-radius: 6%;
 }
 .dos .dos__keyboard .pressed.keyboard__key {
@@ -41,7 +41,7 @@
   flex-wrap: wrap;
   border-radius: 9px;
   padding: 15px;
-  background-color: #d5d5ac;
+  background-color: #c2c2a3;
   width: 674px;
   row-gap: 5px;
   column-gap: 3px;
@@ -119,7 +119,6 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  border: dotted 1px white;
 }
 .note {
   position: absolute;
