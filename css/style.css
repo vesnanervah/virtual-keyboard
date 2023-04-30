@@ -1,6 +1,6 @@
 .dos .dos__keyboard .keyboard__key {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   color: black;
   background-color: #e1e1b6;
   height: 40px;
