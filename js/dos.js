@@ -1,5 +1,5 @@
-import VirtualKeyboard from "./keyboard.js";
-import Monitor from "./monitor.js";
+import VirtualKeyboard from './keyboard.js';
+import Monitor from './monitor.js';
 
 export default class Dos {
   constructor(document) {
@@ -17,32 +17,36 @@ export default class Dos {
   }
 
   handleKeyDown(event) {
+    let  key  = event.key;
     document.querySelector('.display__text').focus();
-    if (event.key == 'GroupNext') {
+    if (key == 'GroupNext') {
       event.preventDefault();
-      for (const btn of document.getElementsByClassName(`key-Alt`)) {
+      for (const btn of document.getElementsByClassName('key-Alt')) {
         btn.closest('.keyboard__key').classList.add('pressed');
       }
       this.keyboard.changeLayout();
     }
-    if (document.getElementsByClassName(`key-${event.key}`)) {
+    if (key === ' ') {
+      key = 'Spacebar';
+    }
+    if (document.getElementsByClassName(`key-${key}`)) {
       this.keyboard.checkLocale(event);
-      for (const btn of document.getElementsByClassName(`key-${event.key}`)) {
+      for (const btn of document.getElementsByClassName(`key-${key}`)) {
         btn.closest('.keyboard__key').classList.add('pressed');
       }
-      if (event.key == 'Control') {
+      if (key == 'Control') {
         this.keyboard.ctrl = true;
       }
-      if (event.key == 'Alt') {
+      if (key == 'Alt') {
         this.keyboard.alt = true;
       }
-      if (event.key == 'Shift') {
+      if (key == 'Shift') {
         this.keyboard.handleShift();
       }
-      if (event.key == 'Tab') {
+      if (key == 'Tab') {
         this.keyboard.handleTab(event);
       }
-      if (event.key == 'Alt' && this.keyboard.ctrl) {
+      if (key == 'Alt' && this.keyboard.ctrl) {
         this.keyboard.changeLayout();
       }
     }
@@ -52,26 +56,30 @@ export default class Dos {
   }
 
   handleKeyUp(event) {
-    if (event.key === 'GroupNext') {
+    let key  = event.key;
+    if (key === ' ') {
+      key = 'Spacebar';
+    }
+    if (key === 'GroupNext') {
       event.preventDefault();
-      for (const btn of document.getElementsByClassName(`key-Alt`)) {
+      for (const btn of document.getElementsByClassName('key-Alt')) {
         btn.closest('.keyboard__key').classList.remove('pressed');
       }
     }
-    if (document.getElementsByClassName(`key-${event.key}`)) {
-      for (const btn of document.getElementsByClassName(`key-${event.key}`)) {
+    if (document.getElementsByClassName(`key-${key}`)) {
+      for (const btn of document.getElementsByClassName(`key-${key}`)) {
         btn.closest('.keyboard__key').classList.remove('pressed');
       }
-      if (event.key === 'CapsLock') {
+      if (key === 'CapsLock') {
         this.keyboard.checkCaps(event);
       }
-      if (event.key === 'Control') {
+      if (key === 'Control') {
         this.keyboard.ctrl = false;
       }
-      if (event.key === 'Alt') {
+      if (key === 'Alt') {
         this.keyboard.alt = false;
       }
-      if (event.key === 'Shift') {
+      if (key === 'Shift') {
         this.keyboard.handleShift();
       }
     }

@@ -114,7 +114,7 @@ export default class VirtualKeyboard {
 
   handleArrows(event) {
     const textarea = this.document.querySelector('.display__text');
-    const rows = textarea.value.split(/\r?\n/).map((item, index) => index != 0?' '+item:item);
+    const rows = textarea.value.split(/\r?\n/).map((item, index) => index != 0 ? ' ' + item : item);
     let currentRow;
     const symbolsTotal = rows.reduce((acc, value) => acc + value.length, 0);
     let up = 0;
