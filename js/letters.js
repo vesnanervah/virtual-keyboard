@@ -1,873 +1,873 @@
 export const EN = [
-    {
-        mainDisplay:'\`',
-        mainValue:'\`',
-        altDisplay:'~',
-        altValue:'~',
-        space:1     
-    }, 
-    {
-        mainDisplay:'1',
-        mainValue:'1',
-        altDisplay:'!',
-        altValue:'!',
-        space:1      
-    },
-    {
-        mainDisplay:'2',
-        mainValue:'2',
-        altDisplay:'@',
-        altValue:'@',
-        space:1      
-    },
-    {
-        mainValue:'3',
-        mainDisplay:'3',
-        altDisplay:'#',
-        altValue:'#',
-        space:1      
-    },
-    {
-        mainDisplay:'4',
-        mainValue:'4',
-        altDisplay:'$',
-        altValue:'$',
-        space:1      
-    },
-    {
-        mainValue:'5',
-        mainDisplay:'5',
-        altValue:'%',
-        altDisplay:'%',
-        space:1      
-    },
-    {
-        mainValue:'6',
-        mainDisplay:'6',
-        altValue:'^',
-        altDisplay:'^',
-        space:1      
-    },
-    {
-        mainDisplay:'7',
-        mainValue:'7',
-        altDisplay:'&',
-        altValue:'&',
-        space:1      
-    },
-    {
-        mainValue:'8',
-        mainDisplay:'8',
-        altValue:'*',
-        altDisplay:'*',
-        space:1      
-    },
-    {
-        mainValue:'9',
-        mainDisplay:'9',
-        altValue:'(',
-        altDisplay:'(',
-        space:1      
-    },
-    {
-        mainValue:'0',
-        mainDisplay:'0',
-        altValue:')',
-        altDisplay:')',
-        space:1      
-    },
-    {
-        mainValue:'-',
-        mainDisplay:'-',
-        altValue:'_',
-        altDisplay:'_',
-        space:1      
-    },
-    {
-        mainValue:'=',
-        mainDisplay:'=',
-        altValue:'+',
-        altDisplay:'+',
-        space:1      
-    },
-    {
-        mainValue:'Backspace',
-        mainDisplay:'&#8656;',
-        altValue:'Backspace',
-        altDisplay:'&#8656;',
-        space:2      
-    },
-    {
-        mainValue:'Tab',
-        mainDisplay:'&#8646;',
-        altValue:'Tab',
-        altDisplay:'&#8646;',
-        space:2      
-    },
-    {
-        mainValue:'q',
-        mainDisplay:'q',
-        altValue:'Q',
-        altDisplay:'Q',
-        space:1      
-    },
-    {
-        mainValue:'w',
-        mainDisplay:'w',
-        altValue:'W',
-        altDisplay:'W',
-        space:1      
-    },
-    {
-        mainValue:'e',
-        mainDisplay:'e',
-        altValue:'E',
-        altDisplay:'E',
-        space:1      
-    },
-    {
-        mainValue:'r',
-        mainDisplay:'r',
-        altValue:'R',
-        altDisplay:'R',
-        space:1      
-    },
-    {
-        mainValue:'t',
-        mainDisplay:'t',
-        altValue:'T',
-        altDisplay:'T',
-        space:1      
-    },
-    {
-        mainValue:'y',
-        mainDisplay:'y',
-        altValue:'Y',
-        altDisplay:'Y',
-        space:1      
-    },
-    {
-        mainValue:'u',
-        mainDisplay:'u',
-        altValue:'U',
-        altDisplay:'U',
-        space:1      
-    },
-    {
-        mainValue:'i',
-        mainDisplay:'i',
-        altValue:'I',
-        altDisplay:'I',
-        space:1      
-    },
-    {
-        mainValue:'o',
-        mainDisplay:'o',
-        altValue:'O',
-        altDisplay:'O',
-        space:1      
-    },
-    {
-        mainValue:'p',
-        mainDisplay:'p',
-        altValue:'P',
-        altDisplay:'P',
-        space:1      
-    },
-    {
-        mainValue:'[',
-        mainDisplay:'[',
-        altValue:'{',
-        altDisplay:'{',
-        space:1      
-    },
-    {
-        mainValue:']',
-        mainDisplay:']',
-        altDisplay:'}',
-        altValue:'}',
-        space:1      
-    },
-    {
-        mainValue:'\\',
-        mainDisplay:'\\',
-        altValue:'|',
-        altDisplay:'|',
-        space:1      
-    },
-    {
-        mainValue:'CapsLock',
-        mainDisplay:'CapsLock',
-        altValue:'CapsLock',
-        altDisplay:'CapsLock',
-        space:2      
-    },
-    {
-        mainValue:'a',
-        mainDisplay:'a',
-        altDisplay:'A',
-        altValue:'A',
-        space:1      
-    },
-    {
-        mainValue:'s',
-        mainDisplay:'s',
-        altDisplay:'S',
-        altValue:'S',
-        space:1      
-    },
-    {
-        mainValue:'d',
-        mainDisplay:'d',
-        altDisplay:'D',
-        altValue:'D',
-        space:1      
-    },
-    {
-        mainValue:'f',
-        mainDisplay:'f',
-        altDisplay:'F',
-        altValue:'F',
-        space:1      
-    },
-    {
-        mainValue:'g',
-        mainDisplay:'g',
-        altValue:'G',
-        altDisplay:'G',
-        space:1      
-    },
-    {
-        mainValue:'h',
-        mainDisplay:'h',
-        altDisplay:'H',
-        altValue:'H',
-        space:1      
-    },
-    {
-        mainValue:'j',
-        mainDisplay:'j',
-        altValue:'J',
-        altDisplay:'J',
-        space:1      
-    },
-    {
-        mainValue:'k',
-        mainDisplay:'k',
-        altDisplay:'K',
-        altValue:'K',
-        space:1      
-    },
-    {
-        mainValue:'l',
-        mainDisplay:'l',
-        altDisplay:'L',
-        altValue:'L',
-        space:1      
-    },
-    {
-        mainValue:';',
-        mainDisplay:';',
-        altValue:':',
-        altDisplay:':',
-        space:1      
-    },
-    {
-        mainDisplay:'\'',
-        mainValue:'\'',
-        altValue:'\"',
-        altDisplay:'\"',
-        space:1      
-    },
-    {
-        mainValue:'Enter',
-        mainDisplay:'&#10550;',
-        altValue:'Enter',
-        altDisplay:'&#10550;',
-        space:2      
-    },
-    {
-        mainValue:'Shift',
-        mainDisplay:'Shift',
-        altDisplay:'Shift',
-        altValue:'Shift',
-        space:2      
-    },
-    {
-        mainValue:'z',
-        mainDisplay:'z',
-        altDisplay:'Z',
-        altValue:'Z',
-        space:1      
-    },
-    {
-        mainValue:'x',
-        mainDisplay:'x',
-        altDisplay:'X',
-        altValue:'X',
-        space:1      
-    },
-    {
-        mainValue:'c',
-        mainDisplay:'c',
-        altDisplay:'C',
-        altValue:'C',
-        space:1      
-    },
-    {
-        mainValue:'v',
-        mainDisplay:'v',
-        altDisplay:'V',
-        altValue:'V',
-        space:1      
-    },
-    {
-        mainValue:'b',
-        mainDisplay:'b',
-        altDisplay:'B',
-        altValue:'B',
-        space:1      
-    },
-    {
-        mainValue:'n',
-        mainDisplay:'n',
-        altDisplay:'N',
-        altValue:'N',
-        space:1      
-    },
-    {
-        mainValue:'m',
-        mainDisplay:'m',
-        altDisplay:'M',
-        altValue:'M',
-        space:1      
-    },
-    {
-        mainValue:',',
-        mainDisplay:',',
-        altValue:'<',
-        altDisplay:'<',
-        space:1      
-    },
-    {
-        mainValue:'.',
-        mainDisplay:'.',
-        altDisplay:'>',
-        altValue:'>',
-        space:1      
-    },
-    {
-        mainValue:'\/',
-        mainDisplay:'\/',
-        altValue:'?',
-        altDisplay:'?',
-        space:1      
-    },
-    {
-        mainValue:'ArrowUp',
-        mainDisplay:'&#8657;',
-        altValue:'ArrowUp',
-        altDisplay:'&#8657;',
-        space:1      
-    },
-    {
-        mainValue:'Shift',
-        mainDisplay:'Shift',
-        altDisplay:'Shift',
-        altValue:'Shift',
-        space:2      
-    },
-    {
-        mainValue:'Control',
-        mainDisplay:'Ctrl',
-        altValue:'Control',
-        altDisplay:'Ctrl',
-        space:2     
-    },
-    {
-        mainValue:'Win',
-        mainDisplay:'Win',
-        altDisplay:'Win',
-        altValue:'Win',
-        space:1     
-    },
-    {
-        mainValue:'Alt',
-        mainDisplay:'Alt',
-        altValue:'Alt',
-        altDisplay:'Alt',
-        space:1     
-    },
-    {
-        mainValue:'Spacebar',
-        mainDisplay:'  ',
-        altValue:'Spacebar',
-        altDisplay:'  ',
-        space:6     
-    },
-    {
-        mainValue:'Alt',
-        mainDisplay:'Alt',
-        altValue:'Alt',
-        altDisplay:'Alt',
-        space:1     
-    },
-    {
-        mainValue:'ArrowLeft',
-        mainDisplay:'&#8656;',
-        altValue:'ArrowLeft',
-        altDisplay:'&#8656;',
-        space:1      
-    },
-    {
-        mainValue:'ArrowDown',
-        mainDisplay:'&#8659;',
-        altValue:'ArrowDown',
-        altDisplay:'&#8659;',
-        space:1    
-    },
-    {
-        mainValue:'ArrowRight',
-        mainDisplay:'&#8658;',
-        altValue:'ArrowRight',
-        altDisplay:'&#8658;',
-        space:1    
-    },
-]
+  {
+    mainDisplay: '\`',
+    mainValue: '\`',
+    altDisplay: '~',
+    altValue: '~',
+    space: 1,
+  },
+  {
+    mainDisplay: '1',
+    mainValue: '1',
+    altDisplay: '!',
+    altValue: '!',
+    space: 1,
+  },
+  {
+    mainDisplay: '2',
+    mainValue: '2',
+    altDisplay: '@',
+    altValue: '@',
+    space: 1,
+  },
+  {
+    mainValue: '3',
+    mainDisplay: '3',
+    altDisplay: '#',
+    altValue: '#',
+    space: 1,
+  },
+  {
+    mainDisplay: '4',
+    mainValue: '4',
+    altDisplay: '$',
+    altValue: '$',
+    space: 1,
+  },
+  {
+    mainValue: '5',
+    mainDisplay: '5',
+    altValue: '%',
+    altDisplay: '%',
+    space: 1,
+  },
+  {
+    mainValue: '6',
+    mainDisplay: '6',
+    altValue: '^',
+    altDisplay: '^',
+    space: 1,
+  },
+  {
+    mainDisplay: '7',
+    mainValue: '7',
+    altDisplay: '&',
+    altValue: '&',
+    space: 1,
+  },
+  {
+    mainValue: '8',
+    mainDisplay: '8',
+    altValue: '*',
+    altDisplay: '*',
+    space: 1,
+  },
+  {
+    mainValue: '9',
+    mainDisplay: '9',
+    altValue: '(',
+    altDisplay: '(',
+    space: 1,
+  },
+  {
+    mainValue: '0',
+    mainDisplay: '0',
+    altValue: ')',
+    altDisplay: ')',
+    space: 1,
+  },
+  {
+    mainValue: '-',
+    mainDisplay: '-',
+    altValue: '_',
+    altDisplay: '_',
+    space: 1,
+  },
+  {
+    mainValue: '=',
+    mainDisplay: '=',
+    altValue: '+',
+    altDisplay: '+',
+    space: 1,
+  },
+  {
+    mainValue: 'Backspace',
+    mainDisplay: '&#8656;',
+    altValue: 'Backspace',
+    altDisplay: '&#8656;',
+    space: 2,
+  },
+  {
+    mainValue: 'Tab',
+    mainDisplay: '&#8646;',
+    altValue: 'Tab',
+    altDisplay: '&#8646;',
+    space: 2,
+  },
+  {
+    mainValue: 'q',
+    mainDisplay: 'q',
+    altValue: 'Q',
+    altDisplay: 'Q',
+    space: 1,
+  },
+  {
+    mainValue: 'w',
+    mainDisplay: 'w',
+    altValue: 'W',
+    altDisplay: 'W',
+    space: 1,
+  },
+  {
+    mainValue: 'e',
+    mainDisplay: 'e',
+    altValue: 'E',
+    altDisplay: 'E',
+    space: 1,
+  },
+  {
+    mainValue: 'r',
+    mainDisplay: 'r',
+    altValue: 'R',
+    altDisplay: 'R',
+    space: 1,
+  },
+  {
+    mainValue: 't',
+    mainDisplay: 't',
+    altValue: 'T',
+    altDisplay: 'T',
+    space: 1,
+  },
+  {
+    mainValue: 'y',
+    mainDisplay: 'y',
+    altValue: 'Y',
+    altDisplay: 'Y',
+    space: 1,
+  },
+  {
+    mainValue: 'u',
+    mainDisplay: 'u',
+    altValue: 'U',
+    altDisplay: 'U',
+    space: 1,
+  },
+  {
+    mainValue: 'i',
+    mainDisplay: 'i',
+    altValue: 'I',
+    altDisplay: 'I',
+    space: 1,
+  },
+  {
+    mainValue: 'o',
+    mainDisplay: 'o',
+    altValue: 'O',
+    altDisplay: 'O',
+    space: 1,
+  },
+  {
+    mainValue: 'p',
+    mainDisplay: 'p',
+    altValue: 'P',
+    altDisplay: 'P',
+    space: 1,
+  },
+  {
+    mainValue: '[',
+    mainDisplay: '[',
+    altValue: '{',
+    altDisplay: '{',
+    space: 1,
+  },
+  {
+    mainValue: ']',
+    mainDisplay: ']',
+    altDisplay: '}',
+    altValue: '}',
+    space: 1,
+  },
+  {
+    mainValue: '\\',
+    mainDisplay: '\\',
+    altValue: '|',
+    altDisplay: '|',
+    space: 1,
+  },
+  {
+    mainValue: 'CapsLock',
+    mainDisplay: 'CapsLock',
+    altValue: 'CapsLock',
+    altDisplay: 'CapsLock',
+    space: 2,
+  },
+  {
+    mainValue: 'a',
+    mainDisplay: 'a',
+    altDisplay: 'A',
+    altValue: 'A',
+    space: 1,
+  },
+  {
+    mainValue: 's',
+    mainDisplay: 's',
+    altDisplay: 'S',
+    altValue: 'S',
+    space: 1,
+  },
+  {
+    mainValue: 'd',
+    mainDisplay: 'd',
+    altDisplay: 'D',
+    altValue: 'D',
+    space: 1,
+  },
+  {
+    mainValue: 'f',
+    mainDisplay: 'f',
+    altDisplay: 'F',
+    altValue: 'F',
+    space: 1,
+  },
+  {
+    mainValue: 'g',
+    mainDisplay: 'g',
+    altValue: 'G',
+    altDisplay: 'G',
+    space: 1,
+  },
+  {
+    mainValue: 'h',
+    mainDisplay: 'h',
+    altDisplay: 'H',
+    altValue: 'H',
+    space: 1,
+  },
+  {
+    mainValue: 'j',
+    mainDisplay: 'j',
+    altValue: 'J',
+    altDisplay: 'J',
+    space: 1,
+  },
+  {
+    mainValue: 'k',
+    mainDisplay: 'k',
+    altDisplay: 'K',
+    altValue: 'K',
+    space: 1,
+  },
+  {
+    mainValue: 'l',
+    mainDisplay: 'l',
+    altDisplay: 'L',
+    altValue: 'L',
+    space: 1,
+  },
+  {
+    mainValue: ';',
+    mainDisplay: ';',
+    altValue: ':',
+    altDisplay: ':',
+    space: 1,
+  },
+  {
+    mainDisplay: '\'',
+    mainValue: '\'',
+    altValue: '\"',
+    altDisplay: '\"',
+    space: 1,
+  },
+  {
+    mainValue: 'Enter',
+    mainDisplay: '&#10550;',
+    altValue: 'Enter',
+    altDisplay: '&#10550;',
+    space: 2,
+  },
+  {
+    mainValue: 'Shift',
+    mainDisplay: 'Shift',
+    altDisplay: 'Shift',
+    altValue: 'Shift',
+    space: 2,
+  },
+  {
+    mainValue: 'z',
+    mainDisplay: 'z',
+    altDisplay: 'Z',
+    altValue: 'Z',
+    space: 1,
+  },
+  {
+    mainValue: 'x',
+    mainDisplay: 'x',
+    altDisplay: 'X',
+    altValue: 'X',
+    space: 1,
+  },
+  {
+    mainValue: 'c',
+    mainDisplay: 'c',
+    altDisplay: 'C',
+    altValue: 'C',
+    space: 1,
+  },
+  {
+    mainValue: 'v',
+    mainDisplay: 'v',
+    altDisplay: 'V',
+    altValue: 'V',
+    space: 1,
+  },
+  {
+    mainValue: 'b',
+    mainDisplay: 'b',
+    altDisplay: 'B',
+    altValue: 'B',
+    space: 1,
+  },
+  {
+    mainValue: 'n',
+    mainDisplay: 'n',
+    altDisplay: 'N',
+    altValue: 'N',
+    space: 1,
+  },
+  {
+    mainValue: 'm',
+    mainDisplay: 'm',
+    altDisplay: 'M',
+    altValue: 'M',
+    space: 1,
+  },
+  {
+    mainValue: ',',
+    mainDisplay: ',',
+    altValue: '<',
+    altDisplay: '<',
+    space: 1,
+  },
+  {
+    mainValue: '.',
+    mainDisplay: '.',
+    altDisplay: '>',
+    altValue: '>',
+    space: 1,
+  },
+  {
+    mainValue: '\/',
+    mainDisplay: '\/',
+    altValue: '?',
+    altDisplay: '?',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowUp',
+    mainDisplay: '&#8657;',
+    altValue: 'ArrowUp',
+    altDisplay: '&#8657;',
+    space: 1,
+  },
+  {
+    mainValue: 'Shift',
+    mainDisplay: 'Shift',
+    altDisplay: 'Shift',
+    altValue: 'Shift',
+    space: 2,
+  },
+  {
+    mainValue: 'Control',
+    mainDisplay: 'Ctrl',
+    altValue: 'Control',
+    altDisplay: 'Ctrl',
+    space: 2,
+  },
+  {
+    mainValue: 'Win',
+    mainDisplay: 'Win',
+    altDisplay: 'Win',
+    altValue: 'Win',
+    space: 1,
+  },
+  {
+    mainValue: 'Alt',
+    mainDisplay: 'Alt',
+    altValue: 'Alt',
+    altDisplay: 'Alt',
+    space: 1,
+  },
+  {
+    mainValue: 'Spacebar',
+    mainDisplay: '  ',
+    altValue: 'Spacebar',
+    altDisplay: '  ',
+    space: 6,
+  },
+  {
+    mainValue: 'Alt',
+    mainDisplay: 'Alt',
+    altValue: 'Alt',
+    altDisplay: 'Alt',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowLeft',
+    mainDisplay: '&#8656;',
+    altValue: 'ArrowLeft',
+    altDisplay: '&#8656;',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowDown',
+    mainDisplay: '&#8659;',
+    altValue: 'ArrowDown',
+    altDisplay: '&#8659;',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowRight',
+    mainDisplay: '&#8658;',
+    altValue: 'ArrowRight',
+    altDisplay: '&#8658;',
+    space: 1,
+  },
+];
 
 export const RU = [
-    {
-        mainDisplay:'\ё',
-        mainValue:'\ё',
-        altDisplay:'Ё',
-        altValue:'Ё',
-        space:1     
-    }, 
-    {
-        mainDisplay:'1',
-        mainValue:'1',
-        altDisplay:'!',
-        altValue:'!',
-        space:1      
-    },
-    {
-        mainDisplay:'2',
-        mainValue:'2',
-        altDisplay:'\"',
-        altValue:'\"',
-        space:1      
-    },
-    {
-        mainValue:'3',
-        mainDisplay:'3',
-        altDisplay:'№',
-        altValue:'№',
-        space:1      
-    },
-    {
-        mainDisplay:'4',
-        mainValue:'4',
-        altDisplay:';',
-        altValue:';',
-        space:1      
-    },
-    {
-        mainValue:'5',
-        mainDisplay:'5',
-        altValue:'%',
-        altDisplay:'%',
-        space:1      
-    },
-    {
-        mainValue:'6',
-        mainDisplay:'6',
-        altValue:':',
-        altDisplay:':',
-        space:1      
-    },
-    {
-        mainDisplay:'7',
-        mainValue:'7',
-        altDisplay:'?',
-        altValue:'?',
-        space:1      
-    },
-    {
-        mainValue:'8',
-        mainDisplay:'8',
-        altValue:'*',
-        altDisplay:'*',
-        space:1      
-    },
-    {
-        mainValue:'9',
-        mainDisplay:'9',
-        altValue:'(',
-        altDisplay:'(',
-        space:1      
-    },
-    {
-        mainValue:'0',
-        mainDisplay:'0',
-        altValue:')',
-        altDisplay:')',
-        space:1      
-    },
-    {
-        mainValue:'-',
-        mainDisplay:'-',
-        altValue:'_',
-        altDisplay:'_',
-        space:1      
-    },
-    {
-        mainValue:'=',
-        mainDisplay:'=',
-        altValue:'+',
-        altDisplay:'+',
-        space:1      
-    },
-    {
-        mainValue:'Backspace',
-        mainDisplay:'&#8656;',
-        altValue:'Backspace',
-        altDisplay:'&#8656;',
-        space:2      
-    },
-    {
-        mainValue:'Tab',
-        mainDisplay:'&#8646;',
-        altValue:'Tab',
-        altDisplay:'&#8646;',
-        space:2      
-    },
-    {
-        mainValue:'й',
-        mainDisplay:'й',
-        altValue:'Й',
-        altDisplay:'Й',
-        space:1      
-    },
-    {
-        mainValue:'ц',
-        mainDisplay:'ц',
-        altValue:'Ц',
-        altDisplay:'Ц',
-        space:1      
-    },
-    {
-        mainValue:'у',
-        mainDisplay:'у',
-        altValue:'У',
-        altDisplay:'У',
-        space:1      
-    },
-    {
-        mainValue:'к',
-        mainDisplay:'к',
-        altValue:'К',
-        altDisplay:'К',
-        space:1      
-    },
-    {
-        mainValue:'е',
-        mainDisplay:'е',
-        altValue:'Е',
-        altDisplay:'Е',
-        space:1      
-    },
-    {
-        mainValue:'н',
-        mainDisplay:'н',
-        altValue:'Н',
-        altDisplay:'Н',
-        space:1      
-    },
-    {
-        mainValue:'г',
-        mainDisplay:'г',
-        altValue:'Г',
-        altDisplay:'Г',
-        space:1      
-    },
-    {
-        mainValue:'ш',
-        mainDisplay:'ш',
-        altValue:'Ш',
-        altDisplay:'Ш',
-        space:1      
-    },
-    {
-        mainValue:'щ',
-        mainDisplay:'щ',
-        altValue:'Щ',
-        altDisplay:'Щ',
-        space:1      
-    },
-    {
-        mainValue:'з',
-        mainDisplay:'з',
-        altValue:'З',
-        altDisplay:'З',
-        space:1      
-    },
-    {
-        mainValue:'х',
-        mainDisplay:'х',
-        altValue:'Х',
-        altDisplay:'Х',
-        space:1      
-    },
-    {
-        mainValue:'ъ',
-        mainDisplay:'ъ',
-        altDisplay:'Ъ',
-        altValue:'Ъ',
-        space:1      
-    },
-    {
-        mainValue:'\\',
-        mainDisplay:'\\',
-        altValue:'/',
-        altDisplay:'/',
-        space:1      
-    },
-    {
-        mainValue:'CapsLock',
-        mainDisplay:'CapsLock',
-        altValue:'CapsLock',
-        altDisplay:'CapsLock',
-        space:2      
-    },
-    {
-        mainValue:'ф',
-        mainDisplay:'ф',
-        altDisplay:'Ф',
-        altValue:'Ф',
-        space:1      
-    },
-    {
-        mainValue:'ы',
-        mainDisplay:'ы',
-        altDisplay:'Ы',
-        altValue:'Ы',
-        space:1      
-    },
-    {
-        mainValue:'в',
-        mainDisplay:'в',
-        altDisplay:'В',
-        altValue:'В',
-        space:1      
-    },
-    {
-        mainValue:'а',
-        mainDisplay:'а',
-        altDisplay:'А',
-        altValue:'А',
-        space:1      
-    },
-    {
-        mainValue:'п',
-        mainDisplay:'п',
-        altValue:'П',
-        altDisplay:'П',
-        space:1      
-    },
-    {
-        mainValue:'р',
-        mainDisplay:'р',
-        altDisplay:'Р',
-        altValue:'Р',
-        space:1      
-    },
-    {
-        mainValue:'о',
-        mainDisplay:'о',
-        altValue:'О',
-        altDisplay:'О',
-        space:1      
-    },
-    {
-        mainValue:'л',
-        mainDisplay:'л',
-        altDisplay:'Л',
-        altValue:'Л',
-        space:1      
-    },
-    {
-        mainValue:'д',
-        mainDisplay:'д',
-        altDisplay:'Д',
-        altValue:'Д',
-        space:1      
-    },
-    {
-        mainValue:'ж',
-        mainDisplay:'ж',
-        altValue:'Ж',
-        altDisplay:'Ж',
-        space:1      
-    },
-    {
-        mainDisplay:'э',
-        mainValue:'э',
-        altValue:'Э',
-        altDisplay:'Э',
-        space:1      
-    },
-    {
-        mainValue:'Enter',
-        mainDisplay:'&#10550;',
-        altValue:'Enter',
-        altDisplay:'&#10550;',
-        space:2      
-    },
-    {
-        mainValue:'Shift',
-        mainDisplay:'Shift',
-        altDisplay:'Shift',
-        altValue:'Shift',
-        space:2      
-    },
-    {
-        mainValue:'я',
-        mainDisplay:'я',
-        altDisplay:'Я',
-        altValue:'Я',
-        space:1      
-    },
-    {
-        mainValue:'ч',
-        mainDisplay:'ч',
-        altDisplay:'Ч',
-        altValue:'Ч',
-        space:1      
-    },
-    {
-        mainValue:'с',
-        mainDisplay:'с',
-        altDisplay:'С',
-        altValue:'С',
-        space:1      
-    },
-    {
-        mainValue:'м',
-        mainDisplay:'м',
-        altDisplay:'М',
-        altValue:'М',
-        space:1      
-    },
-    {
-        mainValue:'и',
-        mainDisplay:'и',
-        altDisplay:'И',
-        altValue:'И',
-        space:1      
-    },
-    {
-        mainValue:'т',
-        mainDisplay:'т',
-        altDisplay:'Т',
-        altValue:'Т',
-        space:1      
-    },
-    {
-        mainValue:'ь',
-        mainDisplay:'ь',
-        altDisplay:'Ь',
-        altValue:'Ь',
-        space:1      
-    },
-    {
-        mainValue:'б',
-        mainDisplay:'б',
-        altValue:'Б',
-        altDisplay:'Б',
-        space:1      
-    },
-    {
-        mainValue:'ю',
-        mainDisplay:'ю',
-        altDisplay:'Ю',
-        altValue:'Ю',
-        space:1      
-    },
-    {
-        mainValue:'.',
-        mainDisplay:'.',
-        altValue:',',
-        altDisplay:',',
-        space:1      
-    },
-    {
-        mainValue:'ArrowUp',
-        mainDisplay:'&#8657;',
-        altValue:'ArrowUp',
-        altDisplay:'&#8657;',
-        space:1      
-    },
-    {
-        mainValue:'Shift',
-        mainDisplay:'Shift',
-        altDisplay:'Shift',
-        altValue:'Shift',
-        space:2      
-    },
-    {
-        mainValue:'Control',
-        mainDisplay:'Ctrl',
-        altValue:'Control',
-        altDisplay:'Ctrl',
-        space:2     
-    },
-    {
-        mainValue:'Win',
-        mainDisplay:'Win',
-        altDisplay:'Win',
-        altValue:'Win',
-        space:1     
-    },
-    {
-        mainValue:'Alt',
-        mainDisplay:'Alt',
-        altValue:'Alt',
-        altDisplay:'Alt',
-        space:1     
-    },
-    {
-        mainValue:'Spacebar',
-        mainDisplay:'  ',
-        altValue:'Spacebar',
-        altDisplay:'  ',
-        space:6     
-    },
-    {
-        mainValue:'Alt',
-        mainDisplay:'Alt',
-        altValue:'Alt',
-        altDisplay:'Alt',
-        space:1     
-    },
-    {
-        mainValue:'ArrowLeft',
-        mainDisplay:'&#8656;',
-        altValue:'ArrowLeft',
-        altDisplay:'&#8656;',
-        space:1      
-    },
-    {
-        mainValue:'ArrowDown',
-        mainDisplay:'&#8659;',
-        altValue:'ArrowDown',
-        altDisplay:'&#8659;',
-        space:1    
-    },
-    {
-        mainValue:'ArrowRight',
-        mainDisplay:'&#8658;',
-        altValue:'ArrowRight',
-        altDisplay:'&#8658;',
-        space:1    
-    },
-]
+  {
+    mainDisplay: '\ё',
+    mainValue: '\ё',
+    altDisplay: 'Ё',
+    altValue: 'Ё',
+    space: 1,
+  },
+  {
+    mainDisplay: '1',
+    mainValue: '1',
+    altDisplay: '!',
+    altValue: '!',
+    space: 1,
+  },
+  {
+    mainDisplay: '2',
+    mainValue: '2',
+    altDisplay: '\"',
+    altValue: '\"',
+    space: 1,
+  },
+  {
+    mainValue: '3',
+    mainDisplay: '3',
+    altDisplay: '№',
+    altValue: '№',
+    space: 1,
+  },
+  {
+    mainDisplay: '4',
+    mainValue: '4',
+    altDisplay: ';',
+    altValue: ';',
+    space: 1,
+  },
+  {
+    mainValue: '5',
+    mainDisplay: '5',
+    altValue: '%',
+    altDisplay: '%',
+    space: 1,
+  },
+  {
+    mainValue: '6',
+    mainDisplay: '6',
+    altValue: ':',
+    altDisplay: ':',
+    space: 1,
+  },
+  {
+    mainDisplay: '7',
+    mainValue: '7',
+    altDisplay: '?',
+    altValue: '?',
+    space: 1,
+  },
+  {
+    mainValue: '8',
+    mainDisplay: '8',
+    altValue: '*',
+    altDisplay: '*',
+    space: 1,
+  },
+  {
+    mainValue: '9',
+    mainDisplay: '9',
+    altValue: '(',
+    altDisplay: '(',
+    space: 1,
+  },
+  {
+    mainValue: '0',
+    mainDisplay: '0',
+    altValue: ')',
+    altDisplay: ')',
+    space: 1,
+  },
+  {
+    mainValue: '-',
+    mainDisplay: '-',
+    altValue: '_',
+    altDisplay: '_',
+    space: 1,
+  },
+  {
+    mainValue: '=',
+    mainDisplay: '=',
+    altValue: '+',
+    altDisplay: '+',
+    space: 1,
+  },
+  {
+    mainValue: 'Backspace',
+    mainDisplay: '&#8656;',
+    altValue: 'Backspace',
+    altDisplay: '&#8656;',
+    space: 2,
+  },
+  {
+    mainValue: 'Tab',
+    mainDisplay: '&#8646;',
+    altValue: 'Tab',
+    altDisplay: '&#8646;',
+    space: 2,
+  },
+  {
+    mainValue: 'й',
+    mainDisplay: 'й',
+    altValue: 'Й',
+    altDisplay: 'Й',
+    space: 1,
+  },
+  {
+    mainValue: 'ц',
+    mainDisplay: 'ц',
+    altValue: 'Ц',
+    altDisplay: 'Ц',
+    space: 1,
+  },
+  {
+    mainValue: 'у',
+    mainDisplay: 'у',
+    altValue: 'У',
+    altDisplay: 'У',
+    space: 1,
+  },
+  {
+    mainValue: 'к',
+    mainDisplay: 'к',
+    altValue: 'К',
+    altDisplay: 'К',
+    space: 1,
+  },
+  {
+    mainValue: 'е',
+    mainDisplay: 'е',
+    altValue: 'Е',
+    altDisplay: 'Е',
+    space: 1,
+  },
+  {
+    mainValue: 'н',
+    mainDisplay: 'н',
+    altValue: 'Н',
+    altDisplay: 'Н',
+    space: 1,
+  },
+  {
+    mainValue: 'г',
+    mainDisplay: 'г',
+    altValue: 'Г',
+    altDisplay: 'Г',
+    space: 1,
+  },
+  {
+    mainValue: 'ш',
+    mainDisplay: 'ш',
+    altValue: 'Ш',
+    altDisplay: 'Ш',
+    space: 1,
+  },
+  {
+    mainValue: 'щ',
+    mainDisplay: 'щ',
+    altValue: 'Щ',
+    altDisplay: 'Щ',
+    space: 1,
+  },
+  {
+    mainValue: 'з',
+    mainDisplay: 'з',
+    altValue: 'З',
+    altDisplay: 'З',
+    space: 1,
+  },
+  {
+    mainValue: 'х',
+    mainDisplay: 'х',
+    altValue: 'Х',
+    altDisplay: 'Х',
+    space: 1,
+  },
+  {
+    mainValue: 'ъ',
+    mainDisplay: 'ъ',
+    altDisplay: 'Ъ',
+    altValue: 'Ъ',
+    space: 1,
+  },
+  {
+    mainValue: '\\',
+    mainDisplay: '\\',
+    altValue: '/',
+    altDisplay: '/',
+    space: 1,
+  },
+  {
+    mainValue: 'CapsLock',
+    mainDisplay: 'CapsLock',
+    altValue: 'CapsLock',
+    altDisplay: 'CapsLock',
+    space: 2,
+  },
+  {
+    mainValue: 'ф',
+    mainDisplay: 'ф',
+    altDisplay: 'Ф',
+    altValue: 'Ф',
+    space: 1,
+  },
+  {
+    mainValue: 'ы',
+    mainDisplay: 'ы',
+    altDisplay: 'Ы',
+    altValue: 'Ы',
+    space: 1,
+  },
+  {
+    mainValue: 'в',
+    mainDisplay: 'в',
+    altDisplay: 'В',
+    altValue: 'В',
+    space: 1,
+  },
+  {
+    mainValue: 'а',
+    mainDisplay: 'а',
+    altDisplay: 'А',
+    altValue: 'А',
+    space: 1,
+  },
+  {
+    mainValue: 'п',
+    mainDisplay: 'п',
+    altValue: 'П',
+    altDisplay: 'П',
+    space: 1,
+  },
+  {
+    mainValue: 'р',
+    mainDisplay: 'р',
+    altDisplay: 'Р',
+    altValue: 'Р',
+    space: 1,
+  },
+  {
+    mainValue: 'о',
+    mainDisplay: 'о',
+    altValue: 'О',
+    altDisplay: 'О',
+    space: 1,
+  },
+  {
+    mainValue: 'л',
+    mainDisplay: 'л',
+    altDisplay: 'Л',
+    altValue: 'Л',
+    space: 1,
+  },
+  {
+    mainValue: 'д',
+    mainDisplay: 'д',
+    altDisplay: 'Д',
+    altValue: 'Д',
+    space: 1,
+  },
+  {
+    mainValue: 'ж',
+    mainDisplay: 'ж',
+    altValue: 'Ж',
+    altDisplay: 'Ж',
+    space: 1,
+  },
+  {
+    mainDisplay: 'э',
+    mainValue: 'э',
+    altValue: 'Э',
+    altDisplay: 'Э',
+    space: 1,
+  },
+  {
+    mainValue: 'Enter',
+    mainDisplay: '&#10550;',
+    altValue: 'Enter',
+    altDisplay: '&#10550;',
+    space: 2,
+  },
+  {
+    mainValue: 'Shift',
+    mainDisplay: 'Shift',
+    altDisplay: 'Shift',
+    altValue: 'Shift',
+    space: 2,
+  },
+  {
+    mainValue: 'я',
+    mainDisplay: 'я',
+    altDisplay: 'Я',
+    altValue: 'Я',
+    space: 1,
+  },
+  {
+    mainValue: 'ч',
+    mainDisplay: 'ч',
+    altDisplay: 'Ч',
+    altValue: 'Ч',
+    space: 1,
+  },
+  {
+    mainValue: 'с',
+    mainDisplay: 'с',
+    altDisplay: 'С',
+    altValue: 'С',
+    space: 1,
+  },
+  {
+    mainValue: 'м',
+    mainDisplay: 'м',
+    altDisplay: 'М',
+    altValue: 'М',
+    space: 1,
+  },
+  {
+    mainValue: 'и',
+    mainDisplay: 'и',
+    altDisplay: 'И',
+    altValue: 'И',
+    space: 1,
+  },
+  {
+    mainValue: 'т',
+    mainDisplay: 'т',
+    altDisplay: 'Т',
+    altValue: 'Т',
+    space: 1,
+  },
+  {
+    mainValue: 'ь',
+    mainDisplay: 'ь',
+    altDisplay: 'Ь',
+    altValue: 'Ь',
+    space: 1,
+  },
+  {
+    mainValue: 'б',
+    mainDisplay: 'б',
+    altValue: 'Б',
+    altDisplay: 'Б',
+    space: 1,
+  },
+  {
+    mainValue: 'ю',
+    mainDisplay: 'ю',
+    altDisplay: 'Ю',
+    altValue: 'Ю',
+    space: 1,
+  },
+  {
+    mainValue: '.',
+    mainDisplay: '.',
+    altValue: ',',
+    altDisplay: ',',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowUp',
+    mainDisplay: '&#8657;',
+    altValue: 'ArrowUp',
+    altDisplay: '&#8657;',
+    space: 1,
+  },
+  {
+    mainValue: 'Shift',
+    mainDisplay: 'Shift',
+    altDisplay: 'Shift',
+    altValue: 'Shift',
+    space: 2,
+  },
+  {
+    mainValue: 'Control',
+    mainDisplay: 'Ctrl',
+    altValue: 'Control',
+    altDisplay: 'Ctrl',
+    space: 2,
+  },
+  {
+    mainValue: 'Win',
+    mainDisplay: 'Win',
+    altDisplay: 'Win',
+    altValue: 'Win',
+    space: 1,
+  },
+  {
+    mainValue: 'Alt',
+    mainDisplay: 'Alt',
+    altValue: 'Alt',
+    altDisplay: 'Alt',
+    space: 1,
+  },
+  {
+    mainValue: 'Spacebar',
+    mainDisplay: '  ',
+    altValue: 'Spacebar',
+    altDisplay: '  ',
+    space: 6,
+  },
+  {
+    mainValue: 'Alt',
+    mainDisplay: 'Alt',
+    altValue: 'Alt',
+    altDisplay: 'Alt',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowLeft',
+    mainDisplay: '&#8656;',
+    altValue: 'ArrowLeft',
+    altDisplay: '&#8656;',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowDown',
+    mainDisplay: '&#8659;',
+    altValue: 'ArrowDown',
+    altDisplay: '&#8659;',
+    space: 1,
+  },
+  {
+    mainValue: 'ArrowRight',
+    mainDisplay: '&#8658;',
+    altValue: 'ArrowRight',
+    altDisplay: '&#8658;',
+    space: 1,
+  },
+];

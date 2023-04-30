@@ -2,9 +2,10 @@ import VirtualKeyboard from "./keyboard.js";
 import Monitor from "./monitor.js";
 
 export default class Dos{
-    constructor(){
+    constructor(document){
+        this.document = document;
         this.monitor = new Monitor();
-        this.keyboard = new VirtualKeyboard();
+        this.keyboard = new VirtualKeyboard(document);
     }
     createDos(){
         let dos = document.createElement('div');
