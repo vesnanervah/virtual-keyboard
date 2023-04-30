@@ -137,6 +137,10 @@ export default class Dos {
         break;
       case 'Shift':
         break;
+      case 'Control':
+        break;
+      case 'Alt':
+        break;
       default:
         textarea.value = textarea.value.slice(0, textarea.selectionStart) + pressedValue + textarea.value.slice(textarea.selectionEnd);
     }
