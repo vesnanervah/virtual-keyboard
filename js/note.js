@@ -1,14 +1,14 @@
 export default class Note {
   createNote() {
-    let noteWrapper = document.createElement('div');
-    let noteHeader = document.createElement('div');
-    let noteLines = document.createElement('div');
-    let lineOne = document.createElement('div');
-    let lineTwo = document.createElement('div');
-    let lineThree = document.createElement('div');
-    let lineFour = document.createElement('div');
-    let lineFive = document.createElement('div');
-    let lineSix = document.createElement('div');
+    const noteWrapper = document.createElement('div');
+    const noteHeader = document.createElement('div');
+    const noteLines = document.createElement('div');
+    const lineOne = document.createElement('div');
+    const lineTwo = document.createElement('div');
+    const lineThree = document.createElement('div');
+    const lineFour = document.createElement('div');
+    const lineFive = document.createElement('div');
+    const lineSix = document.createElement('div');
     noteWrapper.className = 'note';
     noteHeader.className = 'note__header';
     noteLines.className = 'note__lines';
