@@ -1,0 +1,23 @@
+@import '_dos';
+@import '_note';
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-wrapper{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.note{
+    @extend %note;
+}
+.dos{
+    @extend %dos;
+}

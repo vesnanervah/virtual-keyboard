@@ -1,0 +1,43 @@
+@import '_key';
+@import '_layout';
+%dos__keyboard{
+    width:674px;
+    overflow: hidden;
+    .layouts-wrapper{
+        display: flex;
+        width: 9999px;
+    }
+    .keyboard__key{
+        @extend %keyboard__key;
+        .key__alt{
+            display: none;
+        }
+    }
+    .keyboard__layout{
+        @extend %keyboard__layout;
+    }
+    &.keyboard-ru{
+        .layout--ru{
+            order:0;
+        }
+        .layout--en{
+            order: 1;
+        }   
+    }
+    &.keyboard-en{
+        .layout--ru{
+            order:1;
+        }
+        .layout--en{
+            order: 0;
+        }   
+    }
+    &.alt-mode{
+        .key__main{
+            display: none;
+        }
+        .key__alt{
+            display: inline;
+        }
+    }
+}

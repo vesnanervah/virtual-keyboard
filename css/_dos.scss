@@ -1,0 +1,16 @@
+@import '_keyboard';
+@import '_monitor';
+
+%dos{
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    .dos__monitor{
+        @extend %dos__monitor;
+    }
+    .dos__keyboard{
+        @extend %dos__keyboard;
+    }
+}

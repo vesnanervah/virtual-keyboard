@@ -1,0 +1,36 @@
+%dos__monitor{
+    box-sizing: border-box;
+    border: solid black 3px;
+    width:400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:#c2c2a3;
+    border-radius: 3px;
+    .monitor__display{
+        height: 100%;
+        padding: 30px 30px 12px;
+
+    }
+    .display__text{
+        box-sizing: border-box;
+        display: flex;
+        background-color: #233b1b;
+        width: 100%;
+        height: 100%;
+        border: solid black 2px;
+        resize: none;
+        font-size: 18px;
+        color: #b2f279;
+        &:focus{
+            outline: none;
+        }
+    }
+    .monitor__logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+    }
+}
